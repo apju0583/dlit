@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+h1, h2 {
+  color: #61dafb;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+form input, form textarea {
+  padding: 5px;
+  width: 300px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #21a1f1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.game-detail {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.game-detail-image {
+  flex: 1;
+}
+
+.game-detail-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.game-detail-info {
+  flex: 1;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.game-detail-info h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.game-detail-info p {
+  color: #555;
+  margin: 5px 0;
+}
+
+.game-detail-info p strong {
+  color: #000;
+}
